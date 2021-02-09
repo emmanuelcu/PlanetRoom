@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A8AF7D725D346E000EACDAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8AF7D625D346E000EACDAC /* AppDelegate.swift */; };
+		2A8AF7D925D346E000EACDAC /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A8AF7D825D346E000EACDAC /* art.scnassets */; };
+		2A8AF7DB25D346E000EACDAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8AF7DA25D346E000EACDAC /* ViewController.swift */; };
+		2A8AF7DE25D346E000EACDAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A8AF7DC25D346E000EACDAC /* Main.storyboard */; };
+		2A8AF7E025D346E100EACDAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A8AF7DF25D346E100EACDAC /* Assets.xcassets */; };
+		2A8AF7E325D346E100EACDAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A8AF7E125D346E100EACDAC /* LaunchScreen.storyboard */; };
+		2A8AF7EE25D346E100EACDAC /* PlanetRoomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8AF7ED25D346E100EACDAC /* PlanetRoomTests.swift */; };
+		2A8AF7F925D346E100EACDAC /* PlanetRoomUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8AF7F825D346E100EACDAC /* PlanetRoomUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A8AF7EA25D346E100EACDAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A8AF7CB25D346E000EACDAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A8AF7D225D346E000EACDAC;
+			remoteInfo = PlanetRoom;
+		};
+		2A8AF7F525D346E100EACDAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A8AF7CB25D346E000EACDAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A8AF7D225D346E000EACDAC;
+			remoteInfo = PlanetRoom;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A8AF7D325D346E000EACDAC /* PlanetRoom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlanetRoom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A8AF7D625D346E000EACDAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2A8AF7D825D346E000EACDAC /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		2A8AF7DA25D346E000EACDAC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2A8AF7DD25D346E000EACDAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2A8AF7DF25D346E100EACDAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A8AF7E225D346E100EACDAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2A8AF7E425D346E100EACDAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A8AF7E925D346E100EACDAC /* PlanetRoomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlanetRoomTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A8AF7ED25D346E100EACDAC /* PlanetRoomTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetRoomTests.swift; sourceTree = "<group>"; };
+		2A8AF7EF25D346E100EACDAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A8AF7F425D346E100EACDAC /* PlanetRoomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlanetRoomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A8AF7F825D346E100EACDAC /* PlanetRoomUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetRoomUITests.swift; sourceTree = "<group>"; };
+		2A8AF7FA25D346E100EACDAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A8AF7D025D346E000EACDAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A8AF7E625D346E100EACDAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A8AF7F125D346E100EACDAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A8AF7CA25D346E000EACDAC = {
+			isa = PBXGroup;
+			children = (
+				2A8AF7D525D346E000EACDAC /* PlanetRoom */,
+				2A8AF7EC25D346E100EACDAC /* PlanetRoomTests */,
+				2A8AF7F725D346E100EACDAC /* PlanetRoomUITests */,
+				2A8AF7D425D346E000EACDAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A8AF7D425D346E000EACDAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A8AF7D325D346E000EACDAC /* PlanetRoom.app */,
+				2A8AF7E925D346E100EACDAC /* PlanetRoomTests.xctest */,
+				2A8AF7F425D346E100EACDAC /* PlanetRoomUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A8AF7D525D346E000EACDAC /* PlanetRoom */ = {
+			isa = PBXGroup;
+			children = (
+				2A8AF7D625D346E000EACDAC /* AppDelegate.swift */,
+				2A8AF7D825D346E000EACDAC /* art.scnassets */,
+				2A8AF7DA25D346E000EACDAC /* ViewController.swift */,
+				2A8AF7DC25D346E000EACDAC /* Main.storyboard */,
+				2A8AF7DF25D346E100EACDAC /* Assets.xcassets */,
+				2A8AF7E125D346E100EACDAC /* LaunchScreen.storyboard */,
+				2A8AF7E425D346E100EACDAC /* Info.plist */,
+			);
+			path = PlanetRoom;
+			sourceTree = "<group>";
+		};
+		2A8AF7EC25D346E100EACDAC /* PlanetRoomTests */ = {
+			isa = PBXGroup;
+			children = (
+				2A8AF7ED25D346E100EACDAC /* PlanetRoomTests.swift */,
+				2A8AF7EF25D346E100EACDAC /* Info.plist */,
+			);
+			path = PlanetRoomTests;
+			sourceTree = "<group>";
+		};
+		2A8AF7F725D346E100EACDAC /* PlanetRoomUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2A8AF7F825D346E100EACDAC /* PlanetRoomUITests.swift */,
+				2A8AF7FA25D346E100EACDAC /* Info.plist */,
+			);
+			path = PlanetRoomUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A8AF7D225D346E000EACDAC /* PlanetRoom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A8AF7FD25D346E100EACDAC /* Build configuration list for PBXNativeTarget "PlanetRoom" */;
+			buildPhases = (
+				2A8AF7CF25D346E000EACDAC /* Sources */,
+				2A8AF7D025D346E000EACDAC /* Frameworks */,
+				2A8AF7D125D346E000EACDAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlanetRoom;
+			productName = PlanetRoom;
+			productReference = 2A8AF7D325D346E000EACDAC /* PlanetRoom.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2A8AF7E825D346E100EACDAC /* PlanetRoomTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A8AF80025D346E100EACDAC /* Build configuration list for PBXNativeTarget "PlanetRoomTests" */;
+			buildPhases = (
+				2A8AF7E525D346E100EACDAC /* Sources */,
+				2A8AF7E625D346E100EACDAC /* Frameworks */,
+				2A8AF7E725D346E100EACDAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A8AF7EB25D346E100EACDAC /* PBXTargetDependency */,
+			);
+			name = PlanetRoomTests;
+			productName = PlanetRoomTests;
+			productReference = 2A8AF7E925D346E100EACDAC /* PlanetRoomTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2A8AF7F325D346E100EACDAC /* PlanetRoomUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A8AF80325D346E100EACDAC /* Build configuration list for PBXNativeTarget "PlanetRoomUITests" */;
+			buildPhases = (
+				2A8AF7F025D346E100EACDAC /* Sources */,
+				2A8AF7F125D346E100EACDAC /* Frameworks */,
+				2A8AF7F225D346E100EACDAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A8AF7F625D346E100EACDAC /* PBXTargetDependency */,
+			);
+			name = PlanetRoomUITests;
+			productName = PlanetRoomUITests;
+			productReference = 2A8AF7F425D346E100EACDAC /* PlanetRoomUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A8AF7CB25D346E000EACDAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					2A8AF7D225D346E000EACDAC = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					2A8AF7E825D346E100EACDAC = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 2A8AF7D225D346E000EACDAC;
+					};
+					2A8AF7F325D346E100EACDAC = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 2A8AF7D225D346E000EACDAC;
+					};
+				};
+			};
+			buildConfigurationList = 2A8AF7CE25D346E000EACDAC /* Build configuration list for PBXProject "PlanetRoom" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A8AF7CA25D346E000EACDAC;
+			productRefGroup = 2A8AF7D425D346E000EACDAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A8AF7D225D346E000EACDAC /* PlanetRoom */,
+				2A8AF7E825D346E100EACDAC /* PlanetRoomTests */,
+				2A8AF7F325D346E100EACDAC /* PlanetRoomUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A8AF7D125D346E000EACDAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A8AF7D925D346E000EACDAC /* art.scnassets in Resources */,
+				2A8AF7E325D346E100EACDAC /* LaunchScreen.storyboard in Resources */,
+				2A8AF7E025D346E100EACDAC /* Assets.xcassets in Resources */,
+				2A8AF7DE25D346E000EACDAC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A8AF7E725D346E100EACDAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A8AF7F225D346E100EACDAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A8AF7CF25D346E000EACDAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A8AF7DB25D346E000EACDAC /* ViewController.swift in Sources */,
+				2A8AF7D725D346E000EACDAC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A8AF7E525D346E100EACDAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A8AF7EE25D346E100EACDAC /* PlanetRoomTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A8AF7F025D346E100EACDAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A8AF7F925D346E100EACDAC /* PlanetRoomUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A8AF7EB25D346E100EACDAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A8AF7D225D346E000EACDAC /* PlanetRoom */;
+			targetProxy = 2A8AF7EA25D346E100EACDAC /* PBXContainerItemProxy */;
+		};
+		2A8AF7F625D346E100EACDAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A8AF7D225D346E000EACDAC /* PlanetRoom */;
+			targetProxy = 2A8AF7F525D346E100EACDAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2A8AF7DC25D346E000EACDAC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A8AF7DD25D346E000EACDAC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2A8AF7E125D346E100EACDAC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A8AF7E225D346E100EACDAC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A8AF7FB25D346E100EACDAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2A8AF7FC25D346E100EACDAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A8AF7FE25D346E100EACDAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 995DAY8VEK;
+				INFOPLIST_FILE = PlanetRoom/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.uxability.PlanetRoom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2A8AF7FF25D346E100EACDAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 995DAY8VEK;
+				INFOPLIST_FILE = PlanetRoom/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.uxability.PlanetRoom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2A8AF80125D346E100EACDAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 995DAY8VEK;
+				INFOPLIST_FILE = PlanetRoomTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.uxability.PlanetRoomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlanetRoom.app/PlanetRoom";
+			};
+			name = Debug;
+		};
+		2A8AF80225D346E100EACDAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 995DAY8VEK;
+				INFOPLIST_FILE = PlanetRoomTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.uxability.PlanetRoomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlanetRoom.app/PlanetRoom";
+			};
+			name = Release;
+		};
+		2A8AF80425D346E100EACDAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 995DAY8VEK;
+				INFOPLIST_FILE = PlanetRoomUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.uxability.PlanetRoomUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PlanetRoom;
+			};
+			name = Debug;
+		};
+		2A8AF80525D346E100EACDAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 995DAY8VEK;
+				INFOPLIST_FILE = PlanetRoomUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.uxability.PlanetRoomUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PlanetRoom;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A8AF7CE25D346E000EACDAC /* Build configuration list for PBXProject "PlanetRoom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A8AF7FB25D346E100EACDAC /* Debug */,
+				2A8AF7FC25D346E100EACDAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A8AF7FD25D346E100EACDAC /* Build configuration list for PBXNativeTarget "PlanetRoom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A8AF7FE25D346E100EACDAC /* Debug */,
+				2A8AF7FF25D346E100EACDAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A8AF80025D346E100EACDAC /* Build configuration list for PBXNativeTarget "PlanetRoomTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A8AF80125D346E100EACDAC /* Debug */,
+				2A8AF80225D346E100EACDAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A8AF80325D346E100EACDAC /* Build configuration list for PBXNativeTarget "PlanetRoomUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A8AF80425D346E100EACDAC /* Debug */,
+				2A8AF80525D346E100EACDAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A8AF7CB25D346E000EACDAC /* Project object */;
+}
