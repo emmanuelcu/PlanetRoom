@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A4307E425D35762009F18C9 /* Prompt-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2A4307E325D35762009F18C9 /* Prompt-Bold.ttf */; };
+		2A4307E925D3578B009F18C9 /* HindSiliguri-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2A4307E825D3578B009F18C9 /* HindSiliguri-Regular.ttf */; };
 		2A8AF7D725D346E000EACDAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8AF7D625D346E000EACDAC /* AppDelegate.swift */; };
 		2A8AF7D925D346E000EACDAC /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A8AF7D825D346E000EACDAC /* art.scnassets */; };
 		2A8AF7DB25D346E000EACDAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8AF7DA25D346E000EACDAC /* ViewController.swift */; };
@@ -15,6 +17,7 @@
 		2A8AF7E325D346E100EACDAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A8AF7E125D346E100EACDAC /* LaunchScreen.storyboard */; };
 		2A8AF7EE25D346E100EACDAC /* PlanetRoomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8AF7ED25D346E100EACDAC /* PlanetRoomTests.swift */; };
 		2A8AF7F925D346E100EACDAC /* PlanetRoomUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8AF7F825D346E100EACDAC /* PlanetRoomUITests.swift */; };
+		2A8AF80A25D34D0000EACDAC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8AF80925D34D0000EACDAC /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A4307E325D35762009F18C9 /* Prompt-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Prompt-Bold.ttf"; path = "../../../../Downloads/Prompt/Prompt-Bold.ttf"; sourceTree = "<group>"; };
+		2A4307E825D3578B009F18C9 /* HindSiliguri-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "HindSiliguri-Regular.ttf"; path = "../../../../Downloads/Hind_Siliguri/HindSiliguri-Regular.ttf"; sourceTree = "<group>"; };
+		2A4307EE25D35797009F18C9 /* Prompt-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Prompt-Bold.ttf"; sourceTree = "<group>"; };
+		2A4307EF25D35797009F18C9 /* HindSiliguri-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HindSiliguri-Regular.ttf"; sourceTree = "<group>"; };
 		2A8AF7D325D346E000EACDAC /* PlanetRoom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlanetRoom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A8AF7D625D346E000EACDAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2A8AF7D825D346E000EACDAC /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -49,6 +56,7 @@
 		2A8AF7F425D346E100EACDAC /* PlanetRoomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlanetRoomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A8AF7F825D346E100EACDAC /* PlanetRoomUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetRoomUITests.swift; sourceTree = "<group>"; };
 		2A8AF7FA25D346E100EACDAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A8AF80925D34D0000EACDAC /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +84,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A4307ED25D35797009F18C9 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				2A4307EF25D35797009F18C9 /* HindSiliguri-Regular.ttf */,
+				2A4307EE25D35797009F18C9 /* Prompt-Bold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		2A8AF7CA25D346E000EACDAC = {
 			isa = PBXGroup;
 			children = (
@@ -104,8 +121,12 @@
 				2A8AF7DA25D346E000EACDAC /* ViewController.swift */,
 				2A8AF7DC25D346E000EACDAC /* Main.storyboard */,
 				2A8AF7DF25D346E100EACDAC /* Assets.xcassets */,
+				2A4307ED25D35797009F18C9 /* Fonts */,
+				2A4307E825D3578B009F18C9 /* HindSiliguri-Regular.ttf */,
+				2A4307E325D35762009F18C9 /* Prompt-Bold.ttf */,
 				2A8AF7E125D346E100EACDAC /* LaunchScreen.storyboard */,
 				2A8AF7E425D346E100EACDAC /* Info.plist */,
+				2A8AF80925D34D0000EACDAC /* Constants.swift */,
 			);
 			path = PlanetRoom;
 			sourceTree = "<group>";
@@ -231,9 +252,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A4307E925D3578B009F18C9 /* HindSiliguri-Regular.ttf in Resources */,
 				2A8AF7D925D346E000EACDAC /* art.scnassets in Resources */,
 				2A8AF7E325D346E100EACDAC /* LaunchScreen.storyboard in Resources */,
 				2A8AF7E025D346E100EACDAC /* Assets.xcassets in Resources */,
+				2A4307E425D35762009F18C9 /* Prompt-Bold.ttf in Resources */,
 				2A8AF7DE25D346E000EACDAC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +284,7 @@
 			files = (
 				2A8AF7DB25D346E000EACDAC /* ViewController.swift in Sources */,
 				2A8AF7D725D346E000EACDAC /* AppDelegate.swift in Sources */,
+				2A8AF80A25D34D0000EACDAC /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
