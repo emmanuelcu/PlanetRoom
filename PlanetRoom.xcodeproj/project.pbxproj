@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2A4307E425D35762009F18C9 /* Prompt-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2A4307E325D35762009F18C9 /* Prompt-Bold.ttf */; };
 		2A4307E925D3578B009F18C9 /* HindSiliguri-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2A4307E825D3578B009F18C9 /* HindSiliguri-Regular.ttf */; };
+		2A4307F425D36E76009F18C9 /* SolarSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4307F325D36E76009F18C9 /* SolarSystem.swift */; };
 		2A8AF7D725D346E000EACDAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8AF7D625D346E000EACDAC /* AppDelegate.swift */; };
 		2A8AF7D925D346E000EACDAC /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A8AF7D825D346E000EACDAC /* art.scnassets */; };
 		2A8AF7DB25D346E000EACDAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8AF7DA25D346E000EACDAC /* ViewController.swift */; };
@@ -42,6 +43,7 @@
 		2A4307E825D3578B009F18C9 /* HindSiliguri-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "HindSiliguri-Regular.ttf"; path = "../../../../Downloads/Hind_Siliguri/HindSiliguri-Regular.ttf"; sourceTree = "<group>"; };
 		2A4307EE25D35797009F18C9 /* Prompt-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Prompt-Bold.ttf"; sourceTree = "<group>"; };
 		2A4307EF25D35797009F18C9 /* HindSiliguri-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HindSiliguri-Regular.ttf"; sourceTree = "<group>"; };
+		2A4307F325D36E76009F18C9 /* SolarSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarSystem.swift; sourceTree = "<group>"; };
 		2A8AF7D325D346E000EACDAC /* PlanetRoom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlanetRoom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A8AF7D625D346E000EACDAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2A8AF7D825D346E000EACDAC /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 				2A8AF7E125D346E100EACDAC /* LaunchScreen.storyboard */,
 				2A8AF7E425D346E100EACDAC /* Info.plist */,
 				2A8AF80925D34D0000EACDAC /* Constants.swift */,
+				2A4307F325D36E76009F18C9 /* SolarSystem.swift */,
 			);
 			path = PlanetRoom;
 			sourceTree = "<group>";
@@ -284,6 +287,7 @@
 			files = (
 				2A8AF7DB25D346E000EACDAC /* ViewController.swift in Sources */,
 				2A8AF7D725D346E000EACDAC /* AppDelegate.swift in Sources */,
+				2A4307F425D36E76009F18C9 /* SolarSystem.swift in Sources */,
 				2A8AF80A25D34D0000EACDAC /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

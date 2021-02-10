@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BV1-FR-VrT">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="TrG-7r-PZ7">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
@@ -13,7 +13,7 @@
         </array>
     </customFonts>
     <scenes>
-        <!--View Controller-->
+        <!--PlanetRoom-->
         <scene sceneID="tXr-a1-R10">
             <objects>
                 <viewController id="BV1-FR-VrT" customClass="ViewController" customModule="PlanetRoom" customModuleProvider="target" sceneMemberID="viewController">
@@ -21,13 +21,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BrB-h1-WRS">
+                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BrB-h1-WRS">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="862"/>
-                            </arscnView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tTh-QE-rdD">
-                                <rect key="frame" x="20" y="750" width="148" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </arscnView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tTh-QE-rdD">
+                                <rect key="frame" x="20" y="750" width="148" height="80"/>
                                 <accessibility key="accessibilityConfiguration" identifier="24130625-A6B0-47B6-94C8-2AF6C02671F4-asset"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="DG1-C7-WhA"/>
+                                    <constraint firstAttribute="width" constant="148" id="Njj-Y6-lzY"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="Prompt-Bold" family="Prompt" pointSize="30"/>
                                 <state key="normal" title="Prev" backgroundImage="Rectangle">
                                     <color key="titleColor" red="0.9882352941176471" green="0.9882352941176471" blue="0.011764705882352941" alpha="1" colorSpace="calibratedRGB"/>
@@ -36,10 +40,13 @@
                                     <action selector="prevPresssed:" destination="BV1-FR-VrT" eventType="touchUpInside" id="8KS-eT-r6g"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hDt-cs-2cJ">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hDt-cs-2cJ">
                                 <rect key="frame" x="246" y="750" width="148" height="80"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration" identifier="24130625-A6B0-47B6-94C8-2AF6C02671F4-asset"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="148" id="450-Ex-tZp"/>
+                                    <constraint firstAttribute="height" constant="80" id="5oc-0S-lh0"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="Prompt-Bold" family="Prompt" pointSize="30"/>
                                 <state key="normal" title="Next" backgroundImage="Rectangle">
                                     <color key="titleColor" red="0.98823529409999999" green="0.98823529409999999" blue="0.01176470588" alpha="1" colorSpace="calibratedRGB"/>
@@ -52,17 +59,40 @@
                         <viewLayoutGuide key="safeArea" id="fQZ-KI-GVf"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="BrB-h1-WRS" firstAttribute="leading" secondItem="fQZ-KI-GVf" secondAttribute="leading" id="GsS-dJ-CKf"/>
-                            <constraint firstItem="BrB-h1-WRS" firstAttribute="bottom" secondItem="fQZ-KI-GVf" secondAttribute="bottom" id="VpT-BR-CcM"/>
-                            <constraint firstItem="BrB-h1-WRS" firstAttribute="trailing" secondItem="fQZ-KI-GVf" secondAttribute="trailing" id="XyZ-9z-H8e"/>
-                            <constraint firstItem="BrB-h1-WRS" firstAttribute="top" secondItem="U0K-SW-4ec" secondAttribute="top" id="rJc-2c-zQA"/>
+                            <constraint firstItem="fQZ-KI-GVf" firstAttribute="bottom" secondItem="tTh-QE-rdD" secondAttribute="bottom" constant="32" id="B1m-o3-nqu"/>
+                            <constraint firstItem="fQZ-KI-GVf" firstAttribute="trailing" secondItem="hDt-cs-2cJ" secondAttribute="trailing" constant="20" id="ZFJ-fc-qfZ"/>
+                            <constraint firstItem="fQZ-KI-GVf" firstAttribute="bottom" secondItem="hDt-cs-2cJ" secondAttribute="bottom" constant="32" id="cKt-zk-iSF"/>
+                            <constraint firstItem="tTh-QE-rdD" firstAttribute="leading" secondItem="fQZ-KI-GVf" secondAttribute="leading" constant="20" id="oTo-eg-OnL"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="PlanetRoom" id="YSj-A7-L6O"/>
                     <connections>
                         <outlet property="sceneView" destination="BrB-h1-WRS" id="5nT-qQ-ynl"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="839.13043478260875" y="92.410714285714278"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="5Za-JN-f1q">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="TrG-7r-PZ7" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="JTM-k3-Eue">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" systemColor="systemBackgroundColor"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" red="0.98823529409999999" green="0.98823529409999999" blue="0.01176470588" alpha="1" colorSpace="calibratedRGB"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BV1-FR-VrT" kind="relationship" relationship="rootViewController" id="yee-xa-ABk"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eSo-Gj-dFn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-71.014492753623188" y="92.410714285714278"/>
         </scene>

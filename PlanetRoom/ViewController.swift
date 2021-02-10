@@ -10,7 +10,10 @@ import SceneKit
 import ARKit
 
 class ViewController: UIViewController, ARSCNViewDelegate {
-
+    
+    var solarSystem = SolarSystem()
+    var planetName:String = ""
+    
     @IBOutlet var sceneView: ARSCNView!
     
     override func viewDidLoad() {
@@ -26,16 +29,9 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         // Show statistics such as fps and timing information
         sceneView.showsStatistics = true
         
-        let sphere = SCNSphere(radius: 0.3)
-        let material = SCNMaterial()
-        material.diffuse.contents = UIImage(named: K.Planets.Earth)
-        sphere.materials = [material]
+        updatePlanet()
         
-        let node = SCNNode()
-        node.position = SCNVector3(0, 0.1, -0.5)
-        node.geometry = sphere
         
-        sceneView.scene.rootNode.addChildNode(node)
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -59,8 +55,12 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     // MARK: - Buttons
     
     @IBAction func prevPresssed(_ sender: UIButton) {
+        solarSystem.prevPlanet()
+        updatePlanet()
     }
     @IBAction func nextPressed(_ sender: UIButton) {
+        solarSystem.nextPlanet()
+        updatePlanet()
     }
     
 //    MARK: - Renderer
@@ -82,6 +82,22 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         }else{
             return
         }
+    }
+    
+    func updatePlanet(){
+        
+        let sphere = SCNSphere(radius: 0.3)
+        let material = SCNMaterial()
+        material.diffuse.contents = UIImage(named: solarSystem.getPlanetName())
+        sphere.materials = [material]
+        
+        let node = SCNNode()
+        node.position = SCNVector3(0, 0.1, -0.5)
+        node.geometry = sphere
+        sceneView.scene.rootNode.addChildNode(node)
+        
+        solarSystem.getPlanetName()
+        
     }
     
 
