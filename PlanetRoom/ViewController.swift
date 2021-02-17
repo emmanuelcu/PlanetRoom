@@ -8,13 +8,19 @@
 import UIKit
 import SceneKit
 import ARKit
+import Alamofire
+import SwiftyJSON
+import SDWebImage
 
 class ViewController: UIViewController, ARSCNViewDelegate {
     
     var solarSystem = SolarSystem()
     var planetName:String = ""
+    let wikipediaURL = "https://en.wikipedia.org/w/api.php"
     
     @IBOutlet var sceneView: ARSCNView!
+    @IBOutlet weak var planetNameLabel: UILabel!
+    @IBOutlet weak var planetDescription: UITextView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,7 +33,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         sceneView.autoenablesDefaultLighting = true
         
         // Show statistics such as fps and timing information
-        sceneView.showsStatistics = true
+        sceneView.showsStatistics = false
         
         updatePlanet()
         
@@ -88,7 +94,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         
         let sphere = SCNSphere(radius: 0.3)
         let material = SCNMaterial()
-        material.diffuse.contents = UIImage(named: solarSystem.getPlanetName())
+        material.diffuse.contents = UIImage(named: solarSystem.getPlanetImage())
         sphere.materials = [material]
         
         let node = SCNNode()
@@ -96,9 +102,47 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         node.geometry = sphere
         sceneView.scene.rootNode.addChildNode(node)
         
-        solarSystem.getPlanetName()
+        solarSystem.getPlanetImage()
+        
+        planetNameLabel.text = solarSystem.getPlanetName()
+        
+        requestInfo(wordSearched: solarSystem.getPlanetName())
         
     }
+    
+    func requestInfo(wordSearched: String){
+
+            
+            let parameters: [String:String] = [
+                "format" : "json",
+                "action" : "query",
+                "prop" : "extracts|pageimages",
+                "exintro" : "",
+                "explaintext" : "",
+                "titles" : wordSearched,
+                "indexpageids" : "",
+                "redirects" : "1",
+                "pithumbsize": "500"
+            ]
+            
+            Alamofire.request(wikipediaURL, method: .get, parameters: parameters).responseJSON {(response) in
+                if response.result.isSuccess{
+                    print("Got the Wikipedia info")
+                    print(response)
+                    print("~~~~~~~~~~~~")
+                    
+                    let wordJSON: JSON = JSON(response.result.value!)
+                    
+                    let pageid = wordJSON["query"]["pageids"][0].stringValue
+                    
+                    let planetResume = wordJSON["query"]["pages"][pageid]["extract"].stringValue
+                    
+                    self.planetDescription.text = planetResume
+                    
+                    
+                }
+            }
+        }
     
 
 }

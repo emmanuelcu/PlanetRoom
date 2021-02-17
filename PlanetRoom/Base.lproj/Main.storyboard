@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="TrG-7r-PZ7">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="TrG-7r-PZ7">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
+        <array key="HindSiliguri-Regular.ttf">
+            <string>HindSiliguri-Regular</string>
+        </array>
         <array key="Prompt-Bold.ttf">
             <string>Prompt-Bold</string>
         </array>
@@ -18,7 +21,7 @@
             <objects>
                 <viewController id="BV1-FR-VrT" customClass="ViewController" customModule="PlanetRoom" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="U0K-SW-4ec">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BrB-h1-WRS">
@@ -26,7 +29,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </arscnView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tTh-QE-rdD">
-                                <rect key="frame" x="20" y="750" width="148" height="80"/>
+                                <rect key="frame" x="20" y="662" width="148" height="80"/>
                                 <accessibility key="accessibilityConfiguration" identifier="24130625-A6B0-47B6-94C8-2AF6C02671F4-asset"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="80" id="DG1-C7-WhA"/>
@@ -41,7 +44,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hDt-cs-2cJ">
-                                <rect key="frame" x="246" y="750" width="148" height="80"/>
+                                <rect key="frame" x="246" y="662" width="148" height="80"/>
                                 <accessibility key="accessibilityConfiguration" identifier="24130625-A6B0-47B6-94C8-2AF6C02671F4-asset"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="148" id="450-Ex-tZp"/>
@@ -55,6 +58,33 @@
                                     <action selector="nextPressed:" destination="BV1-FR-VrT" eventType="touchUpInside" id="u3i-Op-qOB"/>
                                 </connections>
                             </button>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="79W-3z-H7o">
+                                <rect key="frame" x="20" y="382" width="374" height="259"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Rectangle Copy 2" translatesAutoresizingMaskIntoConstraints="NO" id="Yr1-eF-OC2">
+                                        <rect key="frame" x="-3" y="0.0" width="380" height="259"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <textView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="VDB-6z-HWI">
+                                        <rect key="frame" x="21" y="65" width="333" height="154"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                        <color key="textColor" red="0.98823529409999999" green="0.98823529409999999" blue="0.01176470588" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="HindSiliguri-Regular" family="Hind Siliguri" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YQI-IL-oP8">
+                                        <rect key="frame" x="21" y="25" width="232" height="32"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="Prompt-Bold" family="Prompt" pointSize="21"/>
+                                        <color key="textColor" red="0.98823529409999999" green="0.98823529409999999" blue="0.01176470588" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="fQZ-KI-GVf"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -67,6 +97,8 @@
                     </view>
                     <navigationItem key="navigationItem" title="PlanetRoom" id="YSj-A7-L6O"/>
                     <connections>
+                        <outlet property="planetDescription" destination="VDB-6z-HWI" id="O99-ih-lcA"/>
+                        <outlet property="planetNameLabel" destination="YQI-IL-oP8" id="MOF-zM-dCS"/>
                         <outlet property="sceneView" destination="BrB-h1-WRS" id="5nT-qQ-ynl"/>
                     </connections>
                 </viewController>
@@ -79,11 +111,12 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="TrG-7r-PZ7" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="JTM-k3-Eue">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="JTM-k3-Eue">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="barTintColor" systemColor="systemBackgroundColor"/>
+                        <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="Prompt-Bold" family="Prompt" pointSize="25"/>
                             <color key="textColor" red="0.98823529409999999" green="0.98823529409999999" blue="0.01176470588" alpha="1" colorSpace="calibratedRGB"/>
                         </textAttributes>
                     </navigationBar>
@@ -99,6 +132,7 @@
     </scenes>
     <resources>
         <image name="Rectangle" width="49.5" height="26.5"/>
+        <image name="Rectangle Copy 2" width="382" height="242"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

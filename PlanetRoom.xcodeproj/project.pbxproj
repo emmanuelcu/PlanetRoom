@@ -7,9 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2A4307E425D35762009F18C9 /* Prompt-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2A4307E325D35762009F18C9 /* Prompt-Bold.ttf */; };
-		2A4307E925D3578B009F18C9 /* HindSiliguri-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2A4307E825D3578B009F18C9 /* HindSiliguri-Regular.ttf */; };
 		2A4307F425D36E76009F18C9 /* SolarSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4307F325D36E76009F18C9 /* SolarSystem.swift */; };
+		2A6311CE25DCAC4E00BFD04B /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6311CD25DCAC4E00BFD04B /* Planet.swift */; };
 		2A8AF7D725D346E000EACDAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8AF7D625D346E000EACDAC /* AppDelegate.swift */; };
 		2A8AF7D925D346E000EACDAC /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A8AF7D825D346E000EACDAC /* art.scnassets */; };
 		2A8AF7DB25D346E000EACDAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8AF7DA25D346E000EACDAC /* ViewController.swift */; };
@@ -19,6 +18,11 @@
 		2A8AF7EE25D346E100EACDAC /* PlanetRoomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8AF7ED25D346E100EACDAC /* PlanetRoomTests.swift */; };
 		2A8AF7F925D346E100EACDAC /* PlanetRoomUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8AF7F825D346E100EACDAC /* PlanetRoomUITests.swift */; };
 		2A8AF80A25D34D0000EACDAC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8AF80925D34D0000EACDAC /* Constants.swift */; };
+		2AE9A77025D45D0F008ED6BE /* HindSiliguri-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2AE9A76E25D45D0F008ED6BE /* HindSiliguri-Regular.ttf */; };
+		2AE9A77125D45D0F008ED6BE /* Prompt-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2AE9A76F25D45D0F008ED6BE /* Prompt-Bold.ttf */; };
+		41E3963630A40C68B4E3B626 /* Pods_PlanetRoom.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0374DB143C1A14851C9ADCBE /* Pods_PlanetRoom.framework */; };
+		62130618C5437A22F5431952 /* Pods_PlanetRoomTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55C7941D9970A4B5A4EB376B /* Pods_PlanetRoomTests.framework */; };
+		9FFDB70C5F2FFA28CFC33092 /* Pods_PlanetRoom_PlanetRoomUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 195B1A0C641C5E85FBC2DD41 /* Pods_PlanetRoom_PlanetRoomUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,11 +43,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2A4307E325D35762009F18C9 /* Prompt-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Prompt-Bold.ttf"; path = "../../../../Downloads/Prompt/Prompt-Bold.ttf"; sourceTree = "<group>"; };
-		2A4307E825D3578B009F18C9 /* HindSiliguri-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "HindSiliguri-Regular.ttf"; path = "../../../../Downloads/Hind_Siliguri/HindSiliguri-Regular.ttf"; sourceTree = "<group>"; };
-		2A4307EE25D35797009F18C9 /* Prompt-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Prompt-Bold.ttf"; sourceTree = "<group>"; };
-		2A4307EF25D35797009F18C9 /* HindSiliguri-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HindSiliguri-Regular.ttf"; sourceTree = "<group>"; };
+		0374DB143C1A14851C9ADCBE /* Pods_PlanetRoom.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlanetRoom.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1905DDC74CDE8564301D028B /* Pods-PlanetRoom-PlanetRoomUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlanetRoom-PlanetRoomUITests.debug.xcconfig"; path = "Target Support Files/Pods-PlanetRoom-PlanetRoomUITests/Pods-PlanetRoom-PlanetRoomUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		195B1A0C641C5E85FBC2DD41 /* Pods_PlanetRoom_PlanetRoomUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlanetRoom_PlanetRoomUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E2D9BD2E7983A6E4FF4846A /* Pods-PlanetRoomTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlanetRoomTests.debug.xcconfig"; path = "Target Support Files/Pods-PlanetRoomTests/Pods-PlanetRoomTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2A4307F325D36E76009F18C9 /* SolarSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarSystem.swift; sourceTree = "<group>"; };
+		2A6311CD25DCAC4E00BFD04B /* Planet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planet.swift; sourceTree = "<group>"; };
 		2A8AF7D325D346E000EACDAC /* PlanetRoom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlanetRoom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A8AF7D625D346E000EACDAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2A8AF7D825D346E000EACDAC /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -59,6 +64,13 @@
 		2A8AF7F825D346E100EACDAC /* PlanetRoomUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetRoomUITests.swift; sourceTree = "<group>"; };
 		2A8AF7FA25D346E100EACDAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A8AF80925D34D0000EACDAC /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		2AE9A76E25D45D0F008ED6BE /* HindSiliguri-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "HindSiliguri-Regular.ttf"; path = "../../../../../Downloads/planetapp/HindSiliguri-Regular.ttf"; sourceTree = "<group>"; };
+		2AE9A76F25D45D0F008ED6BE /* Prompt-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Prompt-Bold.ttf"; sourceTree = "<group>"; };
+		55C7941D9970A4B5A4EB376B /* Pods_PlanetRoomTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlanetRoomTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		702757573D66C0315A7FB2C1 /* Pods-PlanetRoom.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlanetRoom.debug.xcconfig"; path = "Target Support Files/Pods-PlanetRoom/Pods-PlanetRoom.debug.xcconfig"; sourceTree = "<group>"; };
+		81B877F07A812F0787D0C898 /* Pods-PlanetRoom-PlanetRoomUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlanetRoom-PlanetRoomUITests.release.xcconfig"; path = "Target Support Files/Pods-PlanetRoom-PlanetRoomUITests/Pods-PlanetRoom-PlanetRoomUITests.release.xcconfig"; sourceTree = "<group>"; };
+		908555DFF1DCB96919D40C73 /* Pods-PlanetRoomTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlanetRoomTests.release.xcconfig"; path = "Target Support Files/Pods-PlanetRoomTests/Pods-PlanetRoomTests.release.xcconfig"; sourceTree = "<group>"; };
+		D43D3D2D0E8A81D42A30949E /* Pods-PlanetRoom.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlanetRoom.release.xcconfig"; path = "Target Support Files/Pods-PlanetRoom/Pods-PlanetRoom.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41E3963630A40C68B4E3B626 /* Pods_PlanetRoom.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62130618C5437A22F5431952 /* Pods_PlanetRoomTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FFDB70C5F2FFA28CFC33092 /* Pods_PlanetRoom_PlanetRoomUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,8 +104,8 @@
 		2A4307ED25D35797009F18C9 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				2A4307EF25D35797009F18C9 /* HindSiliguri-Regular.ttf */,
-				2A4307EE25D35797009F18C9 /* Prompt-Bold.ttf */,
+				2AE9A76E25D45D0F008ED6BE /* HindSiliguri-Regular.ttf */,
+				2AE9A76F25D45D0F008ED6BE /* Prompt-Bold.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -102,6 +117,8 @@
 				2A8AF7EC25D346E100EACDAC /* PlanetRoomTests */,
 				2A8AF7F725D346E100EACDAC /* PlanetRoomUITests */,
 				2A8AF7D425D346E000EACDAC /* Products */,
+				A6F1536079C2DEF8225E4F00 /* Pods */,
+				99F88CD22CBC2F1AF070F5A1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -124,12 +141,11 @@
 				2A8AF7DC25D346E000EACDAC /* Main.storyboard */,
 				2A8AF7DF25D346E100EACDAC /* Assets.xcassets */,
 				2A4307ED25D35797009F18C9 /* Fonts */,
-				2A4307E825D3578B009F18C9 /* HindSiliguri-Regular.ttf */,
-				2A4307E325D35762009F18C9 /* Prompt-Bold.ttf */,
 				2A8AF7E125D346E100EACDAC /* LaunchScreen.storyboard */,
 				2A8AF7E425D346E100EACDAC /* Info.plist */,
 				2A8AF80925D34D0000EACDAC /* Constants.swift */,
 				2A4307F325D36E76009F18C9 /* SolarSystem.swift */,
+				2A6311CD25DCAC4E00BFD04B /* Planet.swift */,
 			);
 			path = PlanetRoom;
 			sourceTree = "<group>";
@@ -152,6 +168,30 @@
 			path = PlanetRoomUITests;
 			sourceTree = "<group>";
 		};
+		99F88CD22CBC2F1AF070F5A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0374DB143C1A14851C9ADCBE /* Pods_PlanetRoom.framework */,
+				195B1A0C641C5E85FBC2DD41 /* Pods_PlanetRoom_PlanetRoomUITests.framework */,
+				55C7941D9970A4B5A4EB376B /* Pods_PlanetRoomTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6F1536079C2DEF8225E4F00 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				702757573D66C0315A7FB2C1 /* Pods-PlanetRoom.debug.xcconfig */,
+				D43D3D2D0E8A81D42A30949E /* Pods-PlanetRoom.release.xcconfig */,
+				1905DDC74CDE8564301D028B /* Pods-PlanetRoom-PlanetRoomUITests.debug.xcconfig */,
+				81B877F07A812F0787D0C898 /* Pods-PlanetRoom-PlanetRoomUITests.release.xcconfig */,
+				1E2D9BD2E7983A6E4FF4846A /* Pods-PlanetRoomTests.debug.xcconfig */,
+				908555DFF1DCB96919D40C73 /* Pods-PlanetRoomTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -159,9 +199,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2A8AF7FD25D346E100EACDAC /* Build configuration list for PBXNativeTarget "PlanetRoom" */;
 			buildPhases = (
+				284ADD518EF1E93333E0A092 /* [CP] Check Pods Manifest.lock */,
 				2A8AF7CF25D346E000EACDAC /* Sources */,
 				2A8AF7D025D346E000EACDAC /* Frameworks */,
 				2A8AF7D125D346E000EACDAC /* Resources */,
+				CC1DACF8CD08D7C24D424CCF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -176,6 +218,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2A8AF80025D346E100EACDAC /* Build configuration list for PBXNativeTarget "PlanetRoomTests" */;
 			buildPhases = (
+				4528B0128F09FD8155A696E5 /* [CP] Check Pods Manifest.lock */,
 				2A8AF7E525D346E100EACDAC /* Sources */,
 				2A8AF7E625D346E100EACDAC /* Frameworks */,
 				2A8AF7E725D346E100EACDAC /* Resources */,
@@ -194,9 +237,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2A8AF80325D346E100EACDAC /* Build configuration list for PBXNativeTarget "PlanetRoomUITests" */;
 			buildPhases = (
+				E8AFB0293B9184C285251E3A /* [CP] Check Pods Manifest.lock */,
 				2A8AF7F025D346E100EACDAC /* Sources */,
 				2A8AF7F125D346E100EACDAC /* Frameworks */,
 				2A8AF7F225D346E100EACDAC /* Resources */,
+				54EB45A2ADC0A98AA8B1F66D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -255,12 +300,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A4307E925D3578B009F18C9 /* HindSiliguri-Regular.ttf in Resources */,
 				2A8AF7D925D346E000EACDAC /* art.scnassets in Resources */,
 				2A8AF7E325D346E100EACDAC /* LaunchScreen.storyboard in Resources */,
+				2AE9A77025D45D0F008ED6BE /* HindSiliguri-Regular.ttf in Resources */,
 				2A8AF7E025D346E100EACDAC /* Assets.xcassets in Resources */,
-				2A4307E425D35762009F18C9 /* Prompt-Bold.ttf in Resources */,
 				2A8AF7DE25D346E000EACDAC /* Main.storyboard in Resources */,
+				2AE9A77125D45D0F008ED6BE /* Prompt-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +325,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		284ADD518EF1E93333E0A092 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PlanetRoom-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4528B0128F09FD8155A696E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PlanetRoomTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54EB45A2ADC0A98AA8B1F66D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PlanetRoom-PlanetRoomUITests/Pods-PlanetRoom-PlanetRoomUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PlanetRoom-PlanetRoomUITests/Pods-PlanetRoom-PlanetRoomUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PlanetRoom-PlanetRoomUITests/Pods-PlanetRoom-PlanetRoomUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC1DACF8CD08D7C24D424CCF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PlanetRoom/Pods-PlanetRoom-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PlanetRoom/Pods-PlanetRoom-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PlanetRoom/Pods-PlanetRoom-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8AFB0293B9184C285251E3A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PlanetRoom-PlanetRoomUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2A8AF7CF25D346E000EACDAC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -289,6 +437,7 @@
 				2A8AF7D725D346E000EACDAC /* AppDelegate.swift in Sources */,
 				2A4307F425D36E76009F18C9 /* SolarSystem.swift in Sources */,
 				2A8AF80A25D34D0000EACDAC /* Constants.swift in Sources */,
+				2A6311CE25DCAC4E00BFD04B /* Planet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +610,7 @@
 		};
 		2A8AF7FE25D346E100EACDAC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 702757573D66C0315A7FB2C1 /* Pods-PlanetRoom.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -480,6 +630,7 @@
 		};
 		2A8AF7FF25D346E100EACDAC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D43D3D2D0E8A81D42A30949E /* Pods-PlanetRoom.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -499,6 +650,7 @@
 		};
 		2A8AF80125D346E100EACDAC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E2D9BD2E7983A6E4FF4846A /* Pods-PlanetRoomTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -521,6 +673,7 @@
 		};
 		2A8AF80225D346E100EACDAC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 908555DFF1DCB96919D40C73 /* Pods-PlanetRoomTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -543,6 +696,7 @@
 		};
 		2A8AF80425D346E100EACDAC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1905DDC74CDE8564301D028B /* Pods-PlanetRoom-PlanetRoomUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -563,6 +717,7 @@
 		};
 		2A8AF80525D346E100EACDAC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81B877F07A812F0787D0C898 /* Pods-PlanetRoom-PlanetRoomUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
